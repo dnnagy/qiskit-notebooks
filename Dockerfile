@@ -1,5 +1,6 @@
 FROM nagyd96/jupyter-notebook-base:latest
 
+ARG NB_USER=nagyd96
 USER root
 
 # there was a problem installing newer version
