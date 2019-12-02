@@ -1,13 +1,14 @@
 # qiskit-notebook
 ## To start run from the working directory:
 ```bash
-docker run -it -p 8888:8888 --mount type=bind,source="$(pwd)",target=/home/nagyd96/workdir nagyd96/qiskit-notebooks:latest
+docker run -it -p 8888:8888 \
+--mount type=bind,source="$(pwd)",target=/home/nagyd96/workdir nagyd96/qiskit-notebook:latest
 ```
 
 ## If you want to run with a specific theme:
 ```bash
 docker run -it -p 8888:8888 \
 -e THEME='onedork' \
---mount type=bind,source="$(pwd)",target=/home/nagyd96/workdir nagyd96/jupyter-notebook-base:latest
+--mount type=bind,source="$(pwd)",target=/home/nagyd96/workdir nagyd96/qiskit-notebook:latest
 ```
 Available themes: [https://github.com/dunovank/jupyter-themes](https://github.com/dunovank/jupyter-themes)
