@@ -1,3 +1,4 @@
+# NOT USED! USE dnnagy/quantum-notebook INSTEAD!
 # qiskit-notebook
 ## To start run from the working directory:
 ```bash
